@@ -1,0 +1,30 @@
+* {
+    opacity: 0.9;
+    margin: 0;
+    padding: 0;
+    background-color: black;
+    ;
+}
+
+html {
+    font-family: Helvetica, sans-serif;
+    font-size: 22px;
+    color: seashell;
+    text-align: center;
+}
+
+
+header {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: black;
+    border-bottom: 1px solid seashell;
+    opacity: 1;
+}
+
+#logo {
+    margin-left: 10px;
+}
