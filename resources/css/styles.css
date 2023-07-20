@@ -103,3 +103,19 @@ figure img {
     height: auto;
     display: block;
 }
+
+/* Location Section */
+
+section#location {
+    display: flex;
+}
+
+.location-title {}
+
+.location-container {}
+
+.downtown {}
+
+.eastbayside {}
+
+.oakdale {}
