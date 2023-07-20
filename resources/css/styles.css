@@ -107,12 +107,35 @@ figure img {
 /* Location Section */
 
 section#location {
+    background-image: url("https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    max-height: 500px;
+    max-width: 1200px;
+    padding-top: 5%;
+    margin-top: 5%;
     display: flex;
+    flex-flow: column;
+    justify-content: left;
+    align-items: center;
+    flex: 1 1200px;
 }
 
-.location-title {}
+.location-title {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 
-.location-container {}
+.location-container {
+    width: 100%;
+    height: 300px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
 
 .downtown {}
 
